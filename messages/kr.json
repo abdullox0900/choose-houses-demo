@@ -1,0 +1,18 @@
+{
+	"header": {
+		"categories": "Категориялар",
+		"halal_installment": "Ҳалол насия",
+		"discount": "Чегирма",
+		"premium_house": "Премиум уй",
+		"outside_city": "Шаҳардан ташқари"
+	},
+	"filterComponent": {
+		"buildingType": "Бино тури",
+		"roomCount": "Хоналар сони",
+		"price": "Нархи",
+		"area": "Майдони",
+		"location": "Жойлашув",
+		"searchByMap": "Карта орқали қидириш",
+		"search": "Қидириш"
+	}
+}

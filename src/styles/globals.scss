@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './components/block.scss';
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin-top: 150px;
+}
+
+.yandex-map {
+	height: 900px;
+	background-image: url('../assets/img/yandex-map.png');
+	background-size: cover;
+	background-position: 10% 80%;
+	background-repeat: no-repeat;
+}
+
+.highlight {
+	display: inline;
+	background-color: #3889f2;
+	padding: 0.1em 0.5em;
+	line-height: 71px;
+	box-decoration-break: clone;
+	margin-bottom: 50px;
+	-webkit-box-decoration-break: clone;
+}
+
+.ymaps-2-1-79-image {
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #3889f2;
+	position: relative;
+}
+
+.ymaps-2-1-79-image::before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	background: inherit;
+	filter: blur(4px);
+	z-index: -1;
+}
+
+.ymaps-2-1-79-image::after {
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 89, 255, 0.3);
+	z-index: -1;
+}
+
+.ymaps-2-1-79-copyright {
+	display: none !important;
+	visibility: hidden;
+}
+
+.plan-bg {
+	background-image: url('../assets/svg/plans-bg-line.svg');
+	background-size: 1650px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1024px) {
+	.plan-bg {
+		background-image: none;
+	}
+}

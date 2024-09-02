@@ -1,0 +1,25 @@
+.ant-select-selector {
+	border-radius: 10px !important;
+}
+
+.ant-slider-track {
+	@apply bg-blue_10 !important;
+}
+
+.ant-slider-handle::after {
+	box-shadow: 0 0 0 2px #3889f2 !important;
+}
+
+@media only screen and (max-width: 765px) {
+	.ant-form-item {
+		width: 100%;
+	}
+
+	.ant-input-affix-wrapper {
+		width: 100% !important;
+	}
+
+	.ant-btn {
+		width: 100% !important;
+	}
+}

@@ -1,0 +1,9 @@
+.ReactModal__Content {
+    transition: all 1s ease;
+    background-color: white;
+}
+
+.ReactModal__Overlay {
+    background-color: hsla(0, 0%, 0%, 0.40) !important;
+    z-index: 100;
+}

@@ -1,0 +1,18 @@
+{
+	"header": {
+		"categories": "Категории",
+		"halal_installment": "Халяльная рассрочка",
+		"discount": "Скидка",
+		"premium_house": "Премиум дом",
+		"outside_city": "За городом"
+	},
+	"filterComponent": {
+		"buildingType": "Тип здания",
+		"roomCount": "Количество комнат",
+		"price": "Цена",
+		"area": "Площадь",
+		"location": "Местоположение",
+		"searchByMap": "Поиск по карте",
+		"search": "Поиск"
+	}
+}

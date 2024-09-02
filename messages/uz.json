@@ -1,0 +1,18 @@
+{
+	"header": {
+		"categories": "Kategoriyalar",
+		"halal_installment": "Halol nasiya",
+		"discount": "Chegirma",
+		"premium_house": "Premium house",
+		"outside_city": "Shahardan tashqari"
+	},
+	"filterComponent": {
+		"buildingType": "Bino turi",
+		"roomCount": "Xonalar soni",
+		"price": "Narxi",
+		"area": "Maydoni",
+		"location": "Joylashuv",
+		"searchByMap": "Karta orqali qidirish",
+		"search": "Qidirish"
+	}
+}
